@@ -1,6 +1,6 @@
 .navbar-custom {
     border-bottom: 1px solid #ccc;
-    padding: 10px;
+    padding: 10px 90px 10px 90px
 }
 
 .navbar-logo {
@@ -59,4 +59,18 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+.checkboxx{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    align-items: center;
+    border-radius: 10px;
+}
+.checkboxx label{
+    padding: 10px;
+}
+.checkboxx input{
+    margin-top: 14px;
+    margin-left: -28px !important;
 }
