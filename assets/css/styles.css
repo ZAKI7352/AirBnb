@@ -60,17 +60,218 @@
     align-items: center;
     gap: 5px;
 }
-.checkboxx{
+
+.checkboxx {
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
     align-items: center;
     border-radius: 10px;
 }
-.checkboxx label{
+
+.checkboxx label {
     padding: 10px;
 }
-.checkboxx input{
+
+.checkboxx input {
     margin-top: 14px;
     margin-left: -28px !important;
+}
+
+
+
+/* botton  Nearby Destinations */
+.navigation {
+    gap: 20px;
+    background: transparent;
+    padding-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 22px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #0d0d0d;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: relative;
+    padding: 15px 0;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #0d0d0d;
+    /* Change color for active state */
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #0d0d0d;
+    transition: width 0.3s;
+}
+
+.line {
+    background-color: #e9ecef;
+    height: 1px;
+    margin-top: -23px;
+}
+
+.top-ul {
+    padding-top: 32px;
+}
+
+.main-ul {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 20px;
+    list-style: none;
+    grid-template-columns: repeat(var(--dense-grid-column-count, 6), minmax(0, 1fr));
+
+}
+
+.lal {
+    display: none;
+}
+
+.line-brek {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.holoday {
+    color: #6a6a6a
+}
+
+.Branson {
+    color: #090101;
+    font-weight: bold;
+}
+
+.footer {
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+}
+
+.footer p {
+    margin: 60px;
+    font-size: 20px;
+    color: #212529;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #040404;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.footer a {
+    color: #343a40;
+    border-bottom: 2px solid #040404;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: white; */
+    font-family: Arial, sans-serif;
+    /* border-top: 1px solid #ddd; */
+    margin-top: -90px;
+}
+
+.footer-nav-copy {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-link-copy {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-link-copy:hover {
+    color: #0a0a0a;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s;
+}
+
+.social-link img:hover {
+    transform: scale(1.1);
+}
+
+.copy {
+    font-size: 15px;
+}
+
+.last-copy {
+    padding-top: 100px;
+}
+
+.line3 {
+    background-color: #B0B0B0;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    height: 1px;
+    margin-top: 1px;
+}
+
+.line2 {
+    background-color: #B0B0B0;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.suport {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(180, 7%, 3%);
+    transition: all 0.3s ease;
+}
+
+.sup a:hover {
+    text-decoration: underline;
+    color: #040404;
+}
+.footersec{
+    background-color: #f7f7f7;
 }
