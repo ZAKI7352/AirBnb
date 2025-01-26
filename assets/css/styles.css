@@ -489,49 +489,36 @@ li a .price {
 }
 
 /* Styling for the rating-info section */
-.rating-info {
+.rating-info1 {
     display: flex;
     align-items: center;
-    /* Vertically align elements */
     gap: 5px;
-    /* Add spacing between elements */
     font-size: 16px;
-    /* Adjust text size */
     color: #333;
-    /* Text color */
     font-weight: bold;
 }
 
 /* Style the rating number */
-.rating {
+.ratingg {
     font-weight: bold;
     color: black;
-    /* Optional rating color */
 }
 
 /* Style the star icon */
-.star {
+.starr {
     color: black;
-    /* Gold color for the star */
     font-size: 18px;
-    /* Slightly larger size */
 }
 
-/* Styling the reviews link */
 .reviews {
     text-decoration: underline;
-    /* Always underlined */
     color: black;
-    /* Link color */
     cursor: pointer;
     transition: color 0.3s ease;
-    /* Smooth hover effect */
 }
 
-/* Hover effect for the reviews link */
 .reviews:hover {
     color: black;
-    /* Darker blue on hover */
 }
 
 .line8 {
@@ -541,57 +528,33 @@ li a .price {
     margin-bottom: 20px;
 }
 
-
-
 .photo-redi {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-
-
-/* Styling for the host details container */
 .host-details {
     display: flex;
     align-items: center;
-    /* Vertically align image and text */
     gap: 10px;
-    /* Add spacing between image and text */
     font-size: 16px;
-    /* Adjust overall font size */
     color: #333;
-    /* Default text color */
     position: relative;
-    /* For background image positioning */
 }
-
-/* Styling for the host photo */
 .host-photo {
     width: 50px;
-    /* Adjust photo size */
     height: 50px;
     border-radius: 50%;
-    /* Circular image */
     object-fit: cover;
-    /* Ensure the image fits well */
     z-index: 2;
-    /* Ensure it appears above the background */
 }
-
-/* Styling for the host text container */
 .host-text {
     position: relative;
-    /* Required for z-index control */
     z-index: 2;
-    /* Ensure text appears above the background */
     padding: 10px;
-    /* Add some space around the text */
 }
 
-/* Styling for the background image */
 .host-details::before {
     content: '';
-    /* Pseudo-element for background */
     position: absolute;
     top: 0;
     left: 0;
@@ -1092,6 +1055,7 @@ header .calendar-current-date {
 .rating {
     margin: 10px 0;
     font-size: 16px;
+    margin-top: 60px;
 }
 
 .date {
@@ -1318,4 +1282,28 @@ header .calendar-current-date {
 .hostcon{
     font-size: 14px;
     padding: 5px;
+}
+.things{
+    font-weight: 700;
+    font-size: 16px;
+}
+.things-con{
+    padding: 5px;
+    font-size: 18px;
+}
+.things-link{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.description-borderrrr{
+    /* border-bottom: 1px solid #ddd; */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.ft-sect{
+    margin-top: 30px;
+}
+.mappp-cc{
+   margin-top: 30px;
+    margin-bottom: 30px;
 }
