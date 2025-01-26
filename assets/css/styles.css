@@ -294,12 +294,12 @@ li a .price {
     font-weight: bold;
 }
 
-.imege-set{
+.imege-set {
     width: 100%;
     height: 230px;
 }
 
-.main-image{
+.main-image {
     border-radius: 15px;
 }
 
@@ -307,7 +307,8 @@ li a .price {
 /* Center the heading and button */
 .text-center {
     text-align: center;
-    margin: 20px 0; /* Adjust spacing as needed */
+    margin: 20px 0;
+    /* Adjust spacing as needed */
 }
 
 /* Style the heading */
@@ -323,23 +324,33 @@ li a .price {
 
 /* Style the button */
 .show-more-btn {
-    display: inline-block; /* Keep it inline */
-    padding: 10px 20px; /* Add padding for better appearance */
-    background-color: #020202; /* Button background color */
-    color: #fff; /* Text color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 18px; /* Adjust text size */
+    display: inline-block;
+    /* Keep it inline */
+    padding: 10px 20px;
+    /* Add padding for better appearance */
+    background-color: #020202;
+    /* Button background color */
+    color: #fff;
+    /* Text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 18px;
+    /* Adjust text size */
     font-weight: bold;
     margin-bottom: 20px;
-    
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
 }
 
 /* Button hover effect */
 .show-more-btn:hover {
-    background-color: #010101; /* Darker blue on hover */
+    background-color: #010101;
+    /* Darker blue on hover */
 }
 
 
@@ -351,21 +362,22 @@ li a .price {
     margin: 0 auto;
   }
    */
-  .ag-photo-gallery_list {
+.ag-photo-gallery_list {
     /* display: -ms-grid;
     display: grid; */
-  
+
     /* grid-gap: 28px; */
-  
+
     -ms-grid-columns: 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  
+
     -ms-grid-rows: 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem .9375rem 22.125rem;
     grid-template-rows: 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem;
-  
+
     margin-bottom: 65px;
-  }
-  /* .ag-photo-gallery_item {
+}
+
+/* .ag-photo-gallery_item {
     -ms-grid-column-span: 4;
     grid-column-end: span 4;
   
@@ -379,135 +391,149 @@ li a .price {
   
     position: relative;
   } */
-  /* .ag-photo-gallery_item__wide {
+/* .ag-photo-gallery_item__wide {
     -ms-grid-column-span: 7;
     grid-column-end: span 7;
   } */
-  /* .ag-photo-gallery_item__middle {
+/* .ag-photo-gallery_item__middle {
     -ms-grid-column-span: 5;
     grid-column-end: span 5;
   } */
-  /* .ag-photo-gallery_item__narrow {
+/* .ag-photo-gallery_item__narrow {
     -ms-grid-column-span: 3;
     grid-column-end: span 3;
   } */
-  .ag-photo-gallery_figure {
+.ag-photo-gallery_figure {
     width: 100%;
     height: 100%;
     overflow: hidden;
-  }
-  .ag-photo-gallery_img {
+}
+
+.ag-photo-gallery_img {
     height: 72vH;
     width: 100%;
     /* -o-object-fit: cover; */
     /* object-fit: cover; */
     /* -o-object-position: 50% 50%; */
     /* object-position: 50% 50%; */
-    
-  }
-  .photo-redius{
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-  }
 
-  .image-fan-1{
+}
+
+.photo-redius {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.image-fan-1 {
     width: 100%;
     height: 100%;
     /* margin-right: 50px; */
-  }
-  
-  @media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 767px) {
     .ag-format-container {
-      width: 96%;
+        width: 96%;
     }
-  
+
     /* .ag-photo-gallery_list {
       grid-gap: 10px;
   
       -ms-grid-rows: 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem;
       grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
     } */
-  }
-  
-  @media only screen and (max-width: 639px) {
-  
-  }
-  
-  @media only screen and (max-width: 479px) {
-  
-  }
-  
-  @media (min-width: 768px) and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 639px) {}
+
+@media only screen and (max-width: 479px) {}
+
+@media (min-width: 768px) and (max-width: 979px) {
     .ag-format-container {
-      width: 750px;
+        width: 750px;
     }
-  
-  }
-  
-  @media (min-width: 980px) and (max-width: 1161px) {
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
     .ag-format-container {
-      width: 960px;
+        width: 960px;
     }
-  
-  }
+
+}
+
 /* .heding-Leisurely h2{
     margin-left: 75px;
 } */
 
-  /* .photo-seting{
+/* .photo-seting{
     width: 50vh;
     height: 30vh;
   } */
 
-  .fancy-image{
+.fancy-image {
     display: grid;
-   gap: 5px;
+    gap: 5px;
     grid-template-columns: repeat(2, 1fr);
-  }
+}
 
 
-  /* Styling for villa details */
+/* Styling for villa details */
 .villa-details p {
     margin: 0;
-    font-size: 16px; /* Adjust size */
-    color: #333; /* Default text color */
-    line-height: 1.5; /* Improve readability */
+    font-size: 16px;
+    /* Adjust size */
+    color: #333;
+    /* Default text color */
+    line-height: 1.5;
+    /* Improve readability */
 }
 
 /* Styling for the rating-info section */
 .rating-info {
     display: flex;
-    align-items: center; /* Vertically align elements */
-    gap: 5px; /* Add spacing between elements */
-    font-size: 16px; /* Adjust text size */
-    color: #333; /* Text color */
+    align-items: center;
+    /* Vertically align elements */
+    gap: 5px;
+    /* Add spacing between elements */
+    font-size: 16px;
+    /* Adjust text size */
+    color: #333;
+    /* Text color */
     font-weight: bold;
 }
 
 /* Style the rating number */
 .rating {
     font-weight: bold;
-    color:black; /* Optional rating color */
+    color: black;
+    /* Optional rating color */
 }
 
 /* Style the star icon */
 .star {
-    color:black; /* Gold color for the star */
-    font-size: 18px; /* Slightly larger size */
+    color: black;
+    /* Gold color for the star */
+    font-size: 18px;
+    /* Slightly larger size */
 }
 
 /* Styling the reviews link */
 .reviews {
-    text-decoration: underline; /* Always underlined */
-    color:black; /* Link color */
+    text-decoration: underline;
+    /* Always underlined */
+    color: black;
+    /* Link color */
     cursor: pointer;
-    transition: color 0.3s ease; /* Smooth hover effect */
+    transition: color 0.3s ease;
+    /* Smooth hover effect */
 }
 
 /* Hover effect for the reviews link */
 .reviews:hover {
-    color:black; /* Darker blue on hover */
+    color: black;
+    /* Darker blue on hover */
 }
+
 .line8 {
     background-color: #b5b6b7;
     height: 1px;
@@ -517,7 +543,7 @@ border-bottom-left-radius: 20px;
 
 
 
-.photo-redi{
+.photo-redi {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -527,55 +553,76 @@ border-bottom-left-radius: 20px;
 /* Styling for the host details container */
 .host-details {
     display: flex;
-    align-items: center; /* Vertically align image and text */
-    gap: 10px; /* Add spacing between image and text */
-    font-size: 16px; /* Adjust overall font size */
-    color: #333; /* Default text color */
-    position: relative; /* For background image positioning */
+    align-items: center;
+    /* Vertically align image and text */
+    gap: 10px;
+    /* Add spacing between image and text */
+    font-size: 16px;
+    /* Adjust overall font size */
+    color: #333;
+    /* Default text color */
+    position: relative;
+    /* For background image positioning */
 }
 
 /* Styling for the host photo */
 .host-photo {
-    width: 50px; /* Adjust photo size */
+    width: 50px;
+    /* Adjust photo size */
     height: 50px;
-    border-radius: 50%; /* Circular image */
-    object-fit: cover; /* Ensure the image fits well */
-    z-index: 2; /* Ensure it appears above the background */
+    border-radius: 50%;
+    /* Circular image */
+    object-fit: cover;
+    /* Ensure the image fits well */
+    z-index: 2;
+    /* Ensure it appears above the background */
 }
 
 /* Styling for the host text container */
 .host-text {
-    position: relative; /* Required for z-index control */
-    z-index: 2; /* Ensure text appears above the background */
-    padding: 10px; /* Add some space around the text */
+    position: relative;
+    /* Required for z-index control */
+    z-index: 2;
+    /* Ensure text appears above the background */
+    padding: 10px;
+    /* Add some space around the text */
 }
 
 /* Styling for the background image */
 .host-details::before {
-    content: ''; /* Pseudo-element for background */
+    content: '';
+    /* Pseudo-element for background */
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('background.jpg') no-repeat center center/cover; /* Replace 'background.jpg' with your logo */
-    z-index: 1; /* Place it behind content */
-    opacity: 0.2; /* Optional: Lighten the background image */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    background: url('background.jpg') no-repeat center center/cover;
+    /* Replace 'background.jpg' with your logo */
+    z-index: 1;
+    /* Place it behind content */
+    opacity: 0.2;
+    /* Optional: Lighten the background image */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
 }
 
 /* Styling for the host name */
 .host-name {
     margin: 0;
-    font-size: 18px; /* Slightly larger for heading */
-    font-weight: bold; /* Emphasize heading */
+    font-size: 18px;
+    /* Slightly larger for heading */
+    font-weight: bold;
+    /* Emphasize heading */
 }
 
 /* Styling for the host info paragraph */
 .host-info {
     margin: 0;
-    font-size: 16px; /* Standard size for paragraph */
-    color: #666; /* Lighter color for secondary text */
+    font-size: 16px;
+    /* Standard size for paragraph */
+    color: #666;
+    /* Lighter color for secondary text */
 }
 
 
@@ -586,63 +633,77 @@ border-bottom-left-radius: 20px;
     margin-bottom: 20px;
 }
 
-.host-pho{
-    width: 50px; /* Adjust photo size */
+.host-pho {
+    width: 50px;
+    /* Adjust photo size */
     height: 50px;
-    border-radius:0 ; /* Circular image */
-    object-fit: cover; /* Ensure the image fits well */
-    z-index: 2; /* Ensure it appears above the background */
+    border-radius: 0;
+    /* Circular image */
+    object-fit: cover;
+    /* Ensure the image fits well */
+    z-index: 2;
+    /* Ensure it appears above the background */
 }
 
 
 /* Styling for the box */
 .info-box {
-    padding: 10px 15px; 
-    border-radius: 8px; 
-    font-size: 16px; 
-    color: #333; 
-    display: flex; 
-    align-items: center; 
-    background-color: #f9f9f9; 
-    border: none; 
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: none;
     margin-bottom: 20px;
 }
 
 /* Styling for the "Show original" link */
 .show-original {
-    color:black; 
-    text-decoration: underline; 
-    margin-left: 5px; 
-    font-weight: bold; 
+    color: black;
+    text-decoration: underline;
+    margin-left: 5px;
+    font-weight: bold;
 }
 
 /* Add hover effect for the link */
 .show-original:hover {
-    color:black;
-    text-decoration: none; 
+    color: black;
+    text-decoration: none;
 }
 
 
 /* Styling for the description */
 .description {
-    font-size: 16px; /* Text size */
-    color: #333; /* Text color */
-    line-height: 1.6; /* Line height for readability */
+    font-size: 16px;
+    /* Text size */
+    color: #333;
+    /* Text color */
+    line-height: 1.6;
+    /* Line height for readability */
 }
 
 /* Styling for the "Show more >" link */
 .show-more-link {
-    color:black; /* Blue color for link */
-    text-decoration: underline; /* Always underlined */
-    font-weight: bold; /* Optional: Make it stand out */
-    margin-left: 5px; /* Add a little spacing */
-    cursor: pointer; /* Change cursor to pointer */
+    color: black;
+    /* Blue color for link */
+    text-decoration: underline;
+    /* Always underlined */
+    font-weight: bold;
+    /* Optional: Make it stand out */
+    margin-left: 5px;
+    /* Add a little spacing */
+    cursor: pointer;
+    /* Change cursor to pointer */
 }
 
 /* Hover effect for the link */
 .show-more-link:hover {
-    color:black; /* Darker blue on hover */
-    text-decoration: none; /* Remove underline on hover */
+    color: black;
+    /* Darker blue on hover */
+    text-decoration: none;
+    /* Remove underline on hover */
 }
 
 
@@ -664,15 +725,18 @@ border-bottom-left-radius: 20px;
 /* Slider container */
 .slider-container {
     display: flex;
-    transition: transform 0.5s ease-in-out; /* Smooth transition when sliding */
+    transition: transform 0.5s ease-in-out;
+    /* Smooth transition when sliding */
 }
 
 /* Each slide (box) */
 .slide {
-    flex: 0 0 calc(33.33% - 20px); /* 3 slides per row */
+    flex: 0 0 calc(33.33% - 20px);
+    /* 3 slides per row */
     /* text-align: center; */
     padding: 20px;
-    margin: 10px; /* Space between slides */
+    margin: 10px;
+    /* Space between slides */
     border: 1px solid #ddd;
     border-radius: 8px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -710,20 +774,22 @@ border-bottom-left-radius: 20px;
     background: rgba(0, 0, 0, 0.8);
 }
 
-.Rest-bed{
+.Rest-bed {
     width: 30px;
     height: 20px;
 }
 
-.dubble-bed{
+.dubble-bed {
     display: flex;
     gap: 10px;
 }
 
-.Bedroom{
+.Bedroom {
     font-size: 20px;
     margin-top: 10px;
-};
+}
+
+;
 
 
 
@@ -771,7 +837,8 @@ border-bottom-left-radius: 20px;
     font-size: 1rem;
     color: #333;
 }
-.offers{
+
+.offers {
     display: flex;
     gap: 50px;
 }
@@ -796,4 +863,459 @@ border-bottom-left-radius: 20px;
 .show-all-link:hover {
     background-color: rgb(180, 175, 175);
     color: #fff;
+}
+
+
+
+
+.calendar-container {
+    background: #fff;
+    /* width: 450px; */
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.calendar-container header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+header .calendar-navigation {
+    display: flex;
+}
+
+header .calendar-navigation span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aeabab;
+    font-size: 1.9rem;
+}
+
+.calendar-navigation span:last-child {
+    margin-right: -10px;
+}
+
+header .calendar-navigation span:hover {
+    background: #f2f2f2;
+}
+
+header .calendar-current-date {
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+
+.calendar-body {
+    padding: 20px;
+}
+
+.calendar-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+.calendar-body .calendar-dates {
+    margin-bottom: 20px;
+}
+
+.calendar-body li {
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    color: #414141;
+}
+
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    font-weight: 500;
+}
+
+.calendar-body .calendar-dates li {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.calendar-dates li.inactive {
+    color: #aaa;
+}
+
+.calendar-dates li.active {
+    color: #fff;
+}
+
+.calendar-dates li::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calendar-dates li.active::before {
+    background: #6332c5;
+}
+
+.calendar-dates li:not(.active):hover::before {
+    background: #e4e1e1;
+}
+
+.rating {
+    font-size: 24px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.reviews {
+    font-size: 18px;
+    color: gray;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+    /* Added border at the bottom */
+    padding-bottom: 20px;
+}
+
+.detail-item {
+    text-align: center;
+    flex: 1;
+    font-weight: 700;
+}
+
+.detail-item:not(:last-child) {
+    border-right: 1px solid #ddd;
+
+}
+
+.detail-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 36px;
+}
+
+.bars {
+    text-align: left;
+}
+
+.bar {
+    height: 4px;
+    background-color: #ddd;
+    margin: 2px 0;
+    position: relative;
+    display: inline-block;
+    width: 80%;
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rating-label {
+    display: inline-block;
+    width: 20px;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.description-borderr{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.review {
+    width: 45%;
+    padding: 20px;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.time {
+    color: gray;
+    font-size: 14px;
+}
+
+.rating {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+.show-moree {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 1300px;
+    height: 500px;
+}
+
+.gmap_iframe {
+    width: 1300px !important;
+    height: 500px !important;
+}
+
+.mappp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description-container {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-top: 26px;
+}
+
+.location {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+.show-moremap {
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+.show-moremap::after {
+    content: '>';
+    margin-left: 5px;
+}
+
+.host-section {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+}
+.host-sectionqw{
+    display: flex;
+}
+
+.host-profile {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    margin-left: 20px;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-stats {
+    margin-top: 10px;
+}
+
+.profile-stats div {
+    margin-bottom: 5px;
+    padding-left: 100px;
+    font-weight: 600;
+}
+
+.details-section {
+    width: 60%;
+    margin-left: 50px;
+}
+
+.contact-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.info-item img {
+    margin-right: 10px;
+   
+}
+.info-immm img{
+    height: 28px;
+    margin-left: -33px;
+
+}
+.info-immmqr img{
+    height: 28px;
+
+}
+
+.expand-link {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+}
+
+.expand-link::after {
+    content: '>';
+    margin-left: 5px;
+}
+
+.host-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.host-avatar {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.host-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.host-profile {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 140px -72px 26px;
+}
+
+.profile-role {
+    color: gray;
+    margin-bottom: -168px;
+    margin-left: 23px;
+
+}
+.meethost{
+    padding: 10px;
+}
+.hostcon{
+    font-size: 14px;
+    padding: 5px;
 }
