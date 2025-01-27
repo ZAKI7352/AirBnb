@@ -77,10 +77,6 @@
     margin-top: 14px;
     margin-left: -28px !important;
 }
-
-
-
-/* botton  Nearby Destinations */
 .navigation {
     gap: 20px;
     background: transparent;
@@ -104,7 +100,6 @@
 
 .nav-link.active {
     color: #0d0d0d;
-    /* Change color for active state */
 }
 
 .nav-link.active::after {
@@ -280,13 +275,8 @@ a {
 .Dahuli {
     font-weight: bold
 }
-
-
-/* Underline the link */
 li a {
-    /* text-decoration: underline; */
     color: inherit;
-    /* Optional: Keep the text color of the link consistent */
 }
 
 /* Make ₹28,529 bold */
@@ -303,15 +293,11 @@ li a .price {
     border-radius: 15px;
 }
 
-
-/* Center the heading and button */
 .text-center {
     text-align: center;
     margin: 20px 0;
-    /* Adjust spacing as needed */
 }
 
-/* Style the heading */
 .text-center h2 {
     font-size: 20px;
     font-weight: bold;
@@ -322,51 +308,26 @@ li a .price {
     font-weight: 500;
 }
 
-/* Style the button */
 .show-more-btn {
     display: inline-block;
-    /* Keep it inline */
     padding: 10px 20px;
-    /* Add padding for better appearance */
     background-color: #020202;
-    /* Button background color */
     color: #fff;
-    /* Text color */
     border: none;
-    /* Remove border */
     border-radius: 5px;
-    /* Rounded corners */
     cursor: pointer;
-    /* Pointer cursor on hover */
     font-size: 18px;
-    /* Adjust text size */
     font-weight: bold;
     margin-bottom: 20px;
-
     transition: background-color 0.3s ease;
-    /* Smooth hover effect */
 }
 
-/* Button hover effect */
 .show-more-btn:hover {
     background-color: #010101;
-    /* Darker blue on hover */
 }
 
 
-
-/* inernerpage */
-
-/* .ag-format-container {
-    width: 1142px;
-    margin: 0 auto;
-  }
-   */
 .ag-photo-gallery_list {
-    /* display: -ms-grid;
-    display: grid; */
-
-    /* grid-gap: 28px; */
 
     -ms-grid-columns: 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -377,32 +338,7 @@ li a .price {
     margin-bottom: 65px;
 }
 
-/* .ag-photo-gallery_item {
-    -ms-grid-column-span: 4;
-    grid-column-end: span 4;
-  
-    cursor: pointer;
-  
-    overflow: hidden;
-  
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-  
-    position: relative;
-  } */
-/* .ag-photo-gallery_item__wide {
-    -ms-grid-column-span: 7;
-    grid-column-end: span 7;
-  } */
-/* .ag-photo-gallery_item__middle {
-    -ms-grid-column-span: 5;
-    grid-column-end: span 5;
-  } */
-/* .ag-photo-gallery_item__narrow {
-    -ms-grid-column-span: 3;
-    grid-column-end: span 3;
-  } */
+
 .ag-photo-gallery_figure {
     width: 100%;
     height: 100%;
@@ -412,11 +348,7 @@ li a .price {
 .ag-photo-gallery_img {
     height: 72vH;
     width: 100%;
-    /* -o-object-fit: cover; */
-    /* object-fit: cover; */
-    /* -o-object-position: 50% 50%; */
-    /* object-position: 50% 50%; */
-
+   
 }
 
 .photo-redius {
@@ -427,7 +359,6 @@ li a .price {
 .image-fan-1 {
     width: 100%;
     height: 100%;
-    /* margin-right: 50px; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -435,12 +366,7 @@ li a .price {
         width: 96%;
     }
 
-    /* .ag-photo-gallery_list {
-      grid-gap: 10px;
-  
-      -ms-grid-rows: 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem;
-      grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
-    } */
+   
 }
 
 @media only screen and (max-width: 639px) {}
@@ -461,15 +387,6 @@ li a .price {
 
 }
 
-/* .heding-Leisurely h2{
-    margin-left: 75px;
-} */
-
-/* .photo-seting{
-    width: 50vh;
-    height: 30vh;
-  } */
-
 .fancy-image {
     display: grid;
     gap: 5px;
@@ -477,18 +394,13 @@ li a .price {
 }
 
 
-/* Styling for villa details */
 .villa-details p {
     margin: 0;
     font-size: 16px;
-    /* Adjust size */
     color: #333;
-    /* Default text color */
     line-height: 1.5;
-    /* Improve readability */
 }
 
-/* Styling for the rating-info section */
 .rating-info1 {
     display: flex;
     align-items: center;
@@ -498,13 +410,11 @@ li a .price {
     font-weight: bold;
 }
 
-/* Style the rating number */
 .ratingg {
     font-weight: bold;
     color: black;
 }
 
-/* Style the star icon */
 .starr {
     color: black;
     font-size: 18px;
@@ -561,31 +471,20 @@ li a .price {
     width: 100%;
     height: 100%;
     background: url('background.jpg') no-repeat center center/cover;
-    /* Replace 'background.jpg' with your logo */
     z-index: 1;
-    /* Place it behind content */
     opacity: 0.2;
-    /* Optional: Lighten the background image */
     border-radius: 8px;
-    /* Optional: Add rounded corners */
 }
 
-/* Styling for the host name */
 .host-name {
     margin: 0;
     font-size: 18px;
-    /* Slightly larger for heading */
-    font-weight: bold;
-    /* Emphasize heading */
 }
 
-/* Styling for the host info paragraph */
 .host-info {
     margin: 0;
     font-size: 16px;
-    /* Standard size for paragraph */
     color: #666;
-    /* Lighter color for secondary text */
 }
 
 
@@ -597,19 +496,13 @@ li a .price {
 }
 
 .host-pho {
-    width: 50px;
-    /* Adjust photo size */
-    height: 50px;
+    width: 35px;
+    height: 38px;
     border-radius: 0;
-    /* Circular image */
     object-fit: cover;
-    /* Ensure the image fits well */
     z-index: 2;
-    /* Ensure it appears above the background */
 }
 
-
-/* Styling for the box */
 .info-box {
     padding: 10px 15px;
     border-radius: 8px;
@@ -622,7 +515,6 @@ li a .price {
     margin-bottom: 20px;
 }
 
-/* Styling for the "Show original" link */
 .show-original {
     color: black;
     text-decoration: underline;
@@ -630,83 +522,51 @@ li a .price {
     font-weight: bold;
 }
 
-/* Add hover effect for the link */
 .show-original:hover {
     color: black;
     text-decoration: none;
 }
 
-
-/* Styling for the description */
 .description {
     font-size: 16px;
-    /* Text size */
     color: #333;
-    /* Text color */
     line-height: 1.6;
-    /* Line height for readability */
 }
 
-/* Styling for the "Show more >" link */
 .show-more-link {
     color: black;
-    /* Blue color for link */
     text-decoration: underline;
-    /* Always underlined */
     font-weight: bold;
-    /* Optional: Make it stand out */
     margin-left: 5px;
-    /* Add a little spacing */
     cursor: pointer;
-    /* Change cursor to pointer */
 }
 
-/* Hover effect for the link */
 .show-more-link:hover {
     color: black;
-    /* Darker blue on hover */
     text-decoration: none;
-    /* Remove underline on hover */
 }
 
-
-
-/* Slider wrapper */
 .slider-wrapper {
-    /* display: flex
-; */
-    /* justify-content: center; */
+
     position: relative;
     overflow: hidden;
-    /* width: 100%; */
-    /* max-width: 1000px; */
-    /* margin: 20px auto; */
     width: 740px;
     height: 200px;
 }
 
-/* Slider container */
 .slider-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    /* Smooth transition when sliding */
 }
 
-/* Each slide (box) */
 .slide {
     flex: 0 0 calc(33.33% - 20px);
-    /* 3 slides per row */
-    /* text-align: center; */
     padding: 20px;
     margin: 10px;
-    /* Space between slides */
     border: 1px solid #ddd;
     border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff; */
 }
 
-/* Slider buttons */
 .slider-btn {
     position: absolute;
     top: 50%;
@@ -751,12 +611,6 @@ li a .price {
     font-size: 20px;
     margin-top: 10px;
 }
-
-;
-
-
-
-/* General Section Styling */
 .amenities-section {
     margin: 20px 0;
     padding: 10px;
@@ -765,7 +619,6 @@ li a .price {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading Styling */
 .amenities-heading {
     font-size: 1.5rem;
     font-weight: bold;
@@ -774,40 +627,34 @@ li a .price {
     color: #333;
 }
 
-/* Amenities List Styling */
 .amenities-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-/* Individual Amenity Item */
 .amenities-list li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-/* Icon Styling */
 .amenity-icon {
     font-size: 1.5rem;
     margin-right: 10px;
     color: #555;
 }
 
-/* Text Styling */
 .amenity-text {
     font-size: 1rem;
     color: #333;
+    font-weight: 500;
 }
 
 .offers {
     display: flex;
-    gap: 50px;
+    gap: 90px;
 }
-
-
-
 .show-all-link {
     display: inline-block;
     margin-top: 15px;
@@ -822,18 +669,13 @@ li a .price {
     transition: all 0.3s ease;
 }
 
-/* Hover Effect for Link */
 .show-all-link:hover {
     background-color: rgb(180, 175, 175);
     color: #fff;
 }
 
-
-
-
 .calendar-container {
     background: #fff;
-    /* width: 450px; */
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
@@ -1022,7 +864,6 @@ header .calendar-current-date {
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
     margin-bottom: 20px;
-
 }
 
 .review {
@@ -1153,7 +994,6 @@ header .calendar-current-date {
     height: 80px;
     border-radius: 50%;
 }
-
 
 .profile-name {
     font-size: 24px;
@@ -1307,7 +1147,6 @@ header .calendar-current-date {
     margin-bottom: 30px;
 }
 
-
 .price-card {
     background-color: #fff;
     border-radius: 12px;
@@ -1366,3 +1205,18 @@ header .calendar-current-date {
     vertical-align: middle;
     margin-right: 5px;
 }
+.col-md-7 {
+    width: 58.3333%;
+    padding-right: 20px;
+}
+.col-md-5 {
+    width: 41.6667%;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+.wifiii{
+    height: 20px;
+    margin: 10px;
+}
+
