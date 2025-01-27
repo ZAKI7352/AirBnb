@@ -201,3 +201,16 @@ function updateGuestSummary() {
     const guestSummary = document.getElementById('guestSummary');
     guestSummary.textContent = totalGuests + ' guest' + (totalGuests !== 1 ? 's' : '') + ' ▼';
 }
+
+function toggleDropdown(event) {
+    event.preventDefault();
+    const dropdownMenu = event.currentTarget.nextElementSibling;
+    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+}
+
+document.addEventListener('click', function(event) {
+    const isClickInside = document.querySelector('.navbar-links').contains(event.target);
+    if (!isClickInside) {
+        document.querySelector('.dropdown-menu').style.display = 'none';
+    }
+});
