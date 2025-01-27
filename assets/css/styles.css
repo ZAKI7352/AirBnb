@@ -5,6 +5,17 @@
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.slid-sty{
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
+    background-color: #FFF;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar-logo {
@@ -28,6 +39,8 @@
     padding: 5px 15px;
     width: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+
 }
 
 .search-bar input {
@@ -139,6 +152,7 @@
     border-color: #dddddd;
     align-items: center;
     border-radius: 10px;
+    margin-top: 25px;
 }
 
 .checkboxx label {
@@ -1354,3 +1368,91 @@ header .calendar-current-date {
     color: blue;
     text-decoration: underline;
 }
+
+
+  
+  
+  .air-side .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+  }
+  
+  .air-side .owl-nav button.owl-prev {
+    left: 0;
+  }
+  
+  .air-side .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  .air-side .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .air-side .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  
+  .air-side .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  
+  .air-side .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  
+  .air-side .owl-nav button:focus {
+    outline: none;
+  }
+  
+  
+  
+  .air-side .owl-item {
+    width: 90px !important;
+    height: 90px !important; /* Adjust this value as needed */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+  .air-side img {
+    width: 30px !important;
+    /* height: 100%;
+    object-fit: cover; */
+  }
+  
+  .air-side .item {
+    /* width: 100%; */
+    text-align: center;
+  }
+  .air-side span {
+    font-size: 10px;    
+    position: relative;
+    /* top: -5px; */
+  }
+  .filer{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    position: absolute;
+    margin-left: -62px;
+  }
+  .slideee-dis{
+    margin-left: 80px;
+    margin-right: 60px;
+  }
+  .filtrr-bttn{
+    margin-top: 25px;
+    margin-right: 10px;
+  }

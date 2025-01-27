@@ -222,3 +222,4 @@ document.addEventListener('click', function(event) {
         document.querySelector('.dropdown-menu').style.display = 'none';
     }
 });
+

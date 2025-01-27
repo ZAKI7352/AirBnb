@@ -12,11 +12,12 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- External CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-white navbar-custom">
+    <nav class="navbar navbar-light bg-white navbar-custom ">
         <div class="navbar-logo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="Airbnb Logo">
         </div>
@@ -46,59 +47,90 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid filter-bar nvv-slide">
-        <div>
-            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="OMG!">
-            <span>OMG!</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png" alt="Icons">
-            <span>Icons</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="Beachfront">
-            <span>Beachfront</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="Lakefront">
-            <span>Lakefront</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="Treehouses">
-            <span>Treehouses</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="Tropical">
-            <span>Tropical</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="Amazing views">
-            <span>Amazing views</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg" alt="Amazing pools">
-            <span>Amazing pools</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="Farms">
-            <span>Farms</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="Castles">
-            <span>Castles</span>
-        </div>
-        <div>
-            <img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="Rooms">
-            <span>Rooms</span>
-        </div>
-        <div>
-            <button class="btn btn-light filtrr-btnn">
-                <i class='bx bx-slider'></i> Filters
-            </button>
-        </div>
-        <div class="form-check form-switch checkboxx">
-            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>
-            <label class="form-check-label" for="flexSwitchCheckDefault">Display total before taxes</label>
+
+    <div class="slid-sty">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="air-side slideee-dis">
+                        <div class="owl-slider">
+                            <div id="carousel" class="owl-carousel">
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+                                        alt="OMG!">
+                                    <span>OMG!</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+                                        alt="Icons">
+                                    <span>Icons</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"
+                                        alt="Beachfront">
+                                    <span>Beachfront</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"
+                                        alt="Lakefront">
+                                    <span>Lakefront</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg"
+                                        alt="Treehouses">
+                                    <span>Treehouses</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
+                                        alt="Tropical">
+                                    <span>Tropical</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+                                        alt="Amazing views">
+                                    <span>Amazing views</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg"
+                                        alt="Amazing pools">
+                                    <span>Amazing pools</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+                                        alt="Farms">
+                                    <span>Farms</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg"
+                                        alt="Castles">
+                                    <span>Castles</span>
+                                </div>
+                                <div class="item">
+                                    <img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg"
+                                        alt="Rooms">
+                                    <span>Rooms</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filer">
+                        <div>
+                            <button class="btn btn-light filtrr-btnn filtrr-bttn">
+                                <i class='bx bx-slider'></i> Filters
+                            </button>
+                        </div>
+                        <div class="form-check form-switch checkboxx">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Display total before
+                                taxes</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -619,13 +651,13 @@
                             </div>
 
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators10"
-                            data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleIndicators10" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators10"
-                            data-bs-slide="next">
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicators10" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -672,13 +704,13 @@
                             </div>
 
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11"
-                            data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleIndicators11" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11"
-                            data-bs-slide="next">
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicators11" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -696,7 +728,7 @@
 
                             <li>
                                 <a href="">
-                                    <span class="price">₹1,20,695  </span>
+                                    <span class="price">₹1,20,695 </span>
                                     <span>total before taxes</span>
                                 </a>
                             </li>
@@ -725,13 +757,13 @@
                             </div>
 
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators12"
-                            data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleIndicators12" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators12"
-                            data-bs-slide="next">
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicators12" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -749,7 +781,7 @@
 
                             <li>
                                 <a href="">
-                                    <span class="price">₹1,58,122  </span>
+                                    <span class="price">₹1,58,122 </span>
                                     <span>total before taxes</span>
                                 </a>
                             </li>
@@ -921,9 +953,9 @@
                                         <span class="holoday">House rentals</span>
                                     </a>
                                 </li>
-                                
+
                             </ul>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1017,6 +1049,43 @@
         crossorigin="anonymous"></script>
     <!-- javascript -->
     <script src="assets\css\main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        jQuery("#carousel").owlCarousel({
+            autoplay: true,
+            rewind: false, /* use rewind if you don't want loop */
+            margin: 10,
+            loop: true,
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 800,
+            dots: false,
+            nav: true,
+            navText: [
+                '<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>',
+                '<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>'
+            ],
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1024: {
+                    items: 4
+                },
+                1366: {
+                    items: 9
+                }
+            },
+        });
+
+    </script>
 
 </body>
 
