@@ -181,4 +181,23 @@ prenexIcons.forEach(icon => {
     });
 });
 
+function toggleDropdown() {
+    const dropdown = document.getElementById('guestDropdown');
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
 
+function changeCount(type, change) {
+    const countElement = document.getElementById(type + 'Count');
+    let count = parseInt(countElement.textContent);
+    count = Math.max(0, count + change);
+    countElement.textContent = count;
+    updateGuestSummary();
+}
+
+function updateGuestSummary() {
+    const adults = parseInt(document.getElementById('adultsCount').textContent);
+    const children = parseInt(document.getElementById('childrenCount').textContent);
+    const totalGuests = adults + children;
+    const guestSummary = document.getElementById('guestSummary');
+    guestSummary.textContent = totalGuests + ' guest' + (totalGuests !== 1 ? 's' : '') + ' ▼';
+}

@@ -1219,4 +1219,60 @@ header .calendar-current-date {
     height: 20px;
     margin: 10px;
 }
-
+.date-row {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.guest-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 10px;
+}
+.guest-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.guest-item:last-child {
+    margin-bottom: 0;
+}
+.guest-controls {
+    display: flex;
+    align-items: center;
+}
+.guest-controls button {
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.guest-count {
+    margin: 0 10px;
+    width: 20px;
+    text-align: center;
+}
+.close-btn {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
