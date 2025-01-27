@@ -92,10 +92,21 @@
 .dropdown-menu a:hover {
     background-color: #f5f5f5;
 }
+.nvv-slide{
+    padding: 10px 90px;
+}
 
+.filtrr-btnn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    align-items: center;
+    border-radius: 10px;
+    height: 48px;
+}
 .filter-bar {
     display: flex;
-    gap: 20px;
+    gap: 37px;
     margin: 10px 0;
     overflow-x: auto;
 }
