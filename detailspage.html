@@ -36,7 +36,7 @@
             <a href="#" class="btn btn-light">Airbnb your home</a>
             <a href="#" class="btn btn-light">🌐</a>
             <div class="dropdown">
-                <a href="#" class="btn btn-light" onclick="toggleDropdown(event)">
+                <a href="#" class="btn btn-light dropdown-toggle" onclick="toggleNavbarDropdown(event)">
                     <i class='bx bx-menu'></i>
                     <i class='bx bx-user'></i>
                 </a>
@@ -217,7 +217,7 @@
 
                             <div class="slider-container">
                                 <!-- Slide 1 -->
-                                <div class="slide">
+                                <div class="slide slide-inner">
                                     <di class="icon">
                                         <img src="/assets/image/bed1.png" alt="Bed Logo" class="Rest-bed">
 
@@ -227,7 +227,7 @@
                                 </div>
 
                                 <!-- Slide 2 -->
-                                <div class="slide">
+                                <div class="slide slide-inner">
                                     <div class="dubble-bed">
                                         <div class="icon">
                                             <img src="/assets/image/bed1.png" alt="Bed Logo" class="Rest-bed">
@@ -242,7 +242,7 @@
 
                                 <!-- Slide 3 -->
 
-                                <div class="slide">
+                                <div class="slide slide-inner">
                                     <div class="dubble-bed">
                                         <div class="icon">
                                             <img src="/assets/image/bed1.png" alt="Bed Logo" class="Rest-bed">
@@ -257,7 +257,7 @@
 
                                 <!-- Slide 4 -->
 
-                                <div class="slide">
+                                <div class="slide slide-inner">
                                     <div class="dubble-bed">
                                         <div class="icon">
                                             <img src="/assets/image/bed1.png" alt="Bed Logo" class="Rest-bed">
@@ -281,7 +281,7 @@
                             <h2 class="amenities-heading">What this place offers</h2>
                         </div>
                         <div class="offers">
-                            <div class="amenities-section">
+                            <div class="amenities-sections">
 
                                 <ul class="amenities-list">
                                     <li>
@@ -314,7 +314,7 @@
                                 </ul>
                             </div>
 
-                            <div class="amenities-section">
+                            <div class="amenities-sectionw">
 
                                 <ul class="amenities-list">
                                     <li>
@@ -400,7 +400,7 @@
                                         <div>Add date</div>
                                     </div>
                                 </div>
-                                <div class="date-row" onclick="toggleDropdown()">
+                                <div class="date-row" onclick="toggleGuestDropdown(event)">
                                     <div>
                                         <div class="date-label">GUESTS</div>
                                         <div id="guestSummary">1 guest ▼</div>
@@ -438,7 +438,7 @@
                                                 <button onclick="changeCount('pets', 1)">+</button>
                                             </div>
                                         </div>
-                                        <div class="close-btn" onclick="toggleDropdown()">Close</div>
+                                        <div class="close-btn" onclick="toggleGuestDropdown(event)">Close</div>
                                     </div>
                                 </div>
                             </div>
@@ -746,90 +746,133 @@
                             <ul class="main-ul">
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Canmore</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Flat rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Benalmádena</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Beach house rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Marbella</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">House rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Mijas</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Flat rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Prescott</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Cottage rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Scottsdale</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Apartment rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Tucson</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Mansion rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Jasper</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Cabin rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Mountain View</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Family-friendly rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Devonport</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Cottage rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Mallacoota</span>
+                                        <span class="lal">&nbsp;</span>
+                                        <span class="holoday">Beach house rentals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="line-brek">
+                                        <span class="Branson">Ibiza</span>
                                         <span class="lal">&nbsp;</span>
                                         <span class="holoday">Holiday rentals</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Anaheim</span>
                                         <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
+                                        <span class="holoday">Family-friendly rentals</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Monterey</span>
                                         <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
+                                        <span class="holoday">House rentals</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Paso Robles</span>
                                         <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
+                                        <span class="holoday">House rentals</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Santa Barbara</span>
                                         <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
+                                        <span class="holoday">Beachfront rentals</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Sonoma</span>
                                         <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
+                                        <span class="holoday">Rentals with pools</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
+                                        <span class="Branson">Paso Robles</span>
                                         <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
+                                        <span class="holoday">House rentals</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
-                                        <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
-                                        <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
-                                        <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
-                                        <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="line-brek">
-                                        <span class="Branson">Branson</span>
-                                        <span class="lal">&nbsp;</span>
-                                        <span class="holoday">Holiday rentals</span>
-                                    </a>
-                                </li>
+                                
                             </ul>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>

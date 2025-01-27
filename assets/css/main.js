@@ -1,12 +1,19 @@
 const navLinks = document.querySelectorAll('.nav-link');
 
 navLinks.forEach((link) => {
-  link.addEventListener('click', (e) => {
-    e.preventDefault();
-    navLinks.forEach((link) => link.classList.remove('active'));
-    e.target.classList.add('active');
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      navLinks.forEach((link) => link.classList.remove('active'));
+      e.target.classList.add('active');
+    });
   });
-});
+
+// Function to toggle the navbar dropdown
+function toggleNavbarDropdown(event) {
+    event.preventDefault();
+    const dropdownMenu = event.currentTarget.nextElementSibling;
+    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+}
 
 (function ($) {
   $(function () {
@@ -35,6 +42,19 @@ nextBtn.addEventListener('click', function() {
     }
 });
 
+// Close dropdowns when clicking outside
+document.addEventListener('click', function(event) {
+    const isNavbarClickInside = document.querySelector('.navbar-links').contains(event.target);
+    const isGuestClickInside = document.querySelector('.date-row').contains(event.target);
+
+    if (!isNavbarClickInside) {
+        document.querySelector('.dropdown-menu').style.display = 'none';
+    }
+
+    if (!isGuestClickInside) {
+        document.getElementById('guestDropdown').style.display = 'none';
+    }
+});
 // Event listener for the "Prev" button
 prevBtn.addEventListener('click', function() {
     if (currentIndex > 0) {
@@ -171,6 +191,7 @@ function toggleDropdown() {
     dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
 }
 
+// Function to change guest count
 function changeCount(type, change) {
     const countElement = document.getElementById(type + 'Count');
     let count = parseInt(countElement.textContent);
@@ -179,6 +200,7 @@ function changeCount(type, change) {
     updateGuestSummary();
 }
 
+// Function to update guest summary
 function updateGuestSummary() {
     const adults = parseInt(document.getElementById('adultsCount').textContent);
     const children = parseInt(document.getElementById('childrenCount').textContent);
@@ -187,10 +209,11 @@ function updateGuestSummary() {
     guestSummary.textContent = totalGuests + ' guest' + (totalGuests !== 1 ? 's' : '') + ' ▼';
 }
 
-function toggleDropdown(event) {
-    event.preventDefault();
-    const dropdownMenu = event.currentTarget.nextElementSibling;
-    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+// Function to toggle the guest dropdown
+function toggleGuestDropdown(event) {
+    event.stopPropagation(); // Prevent event from bubbling up
+    const guestDropdown = document.getElementById('guestDropdown');
+    guestDropdown.style.display = guestDropdown.style.display === 'block' ? 'none' : 'block';
 }
 
 document.addEventListener('click', function(event) {
